@@ -4,13 +4,15 @@
     padding: 0px;
     box-sizing: border-box;
     font: General Sans;
+
 }
 .main
 {
-    height: 100vh;
+    height: 1000vh;
     width: 100%;
     background-color: black;
     color: white;
+  
 }
 #navbar
 {  display: flex;
@@ -18,7 +20,15 @@
     padding:20px 20px;
     background-color: black;
     color: white;
+    text-decoration: none;
 }
+#navbar>a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
 #Heroline1{
     font-size: 10vw;
     opacity: 0.7;
@@ -54,9 +64,45 @@
 .HeroFooter2{
     opacity: 0.7;
     display: flex;
-   
      line-height: 1.5;
-     justify-content:space-around;
-   
+     justify-content:space-between;
+     padding: 0 2vw;
      padding-top: 40px;
+}
+.upp>i
+{
+   padding: 10px; 
+   width: 30px;
+   height: 30px;
+}
+#line{
+    margin-top: 50px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.Heroproject
+{
+    padding: 10px;
+    font-size: 3vw;
+    opacity: 0.7;
+}
+.Heroproject1{
+    padding: 50px;
+ 
+
+}
+.Heroproject2
+{
+    padding: 50px;
+
+}
+.Heroproject3
+{
+    padding: 50px;
+}
+.about
+{
+    display: flex;
+    justify-content:flex-end;
+    padding: 30px;
 }
