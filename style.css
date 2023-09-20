@@ -6,11 +6,12 @@
     font: General Sans;
 
 }
+body{background-color: black;}
 .main
 {
-    height: 1000vh;
+    /* height: 1000vh; */
     width: 100%;
-    background-color: black;
+  
     color: white;
   
 }
@@ -18,7 +19,6 @@
 {  display: flex;
     justify-content: space-between;
     padding:20px 20px;
-    background-color: black;
     color: white;
     text-decoration: none;
 }
@@ -106,3 +106,53 @@ margin-right: 20px;
     justify-content:flex-end;
     padding: 30px;
 }
+.Heroprof{
+    padding: 30px;
+}
+.Heroabout{
+    padding: 30px;
+}
+a
+{
+    display: inline-block;
+        position: relative;
+        /* color: #0087ca; */
+      }
+
+     a::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        opacity: 0.7;
+        transform-origin: bottom right;
+        transition: transform 0.5s ease-out;
+      }
+      a:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+    footer{
+        
+        display: flex;
+        justify-content: space-between;
+        padding:90px 20px 40px 10px;
+        color: white;
+        opacity: 0.7;
+      
+    }
+    .rightfooter>a{
+        text-decoration: none;
+        color: white;
+       
+        font-weight: bold;
+       padding: 10px;
+    }
+
+
+
+    
