@@ -133,4 +133,59 @@ padding-right: 10px;
     width: 200px;
 
 }
+.aboutmetext h5{
+   padding-bottom: 20px;
+   opacity: 0.6;
+}
+.aboutmetext a{
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+    font-size: 1vw;
+  
+}
+.aboutmetext p{
+    line-height: 1.3;
+}
+.btn
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* Subscribe Section style */
+.subscribe
+{
+  
+    padding: 20px;
+}
+.subscribe h5{
+    opacity: 0.6;
+    line-height: 2;
+}
+.Footer{
+    padding-top:  60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footerleft h5{
+    padding: 10px;
+}
+.footerleft
+{
+    display: flex;
+    padding: 10px;
+}
+
+.footerright,a
+
+{
+padding: 10px;
+text-decoration: none;
+color: white;
+}
+
+/* Adding Animations */
 
